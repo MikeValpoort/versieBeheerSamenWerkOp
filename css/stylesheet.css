@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+#hoofd {
+    border: 5px solid black;
+    padding: 20px;
+}
+#klantManagement {
+    background-color: blue;
+    display: flex;
+    height: 100%;
+    width:100%;
+    padding:0;
+    
+}
+#sidePage {
+    background-color: rgb(209, 195, 195);
+    align-items: flex-start;
+    width: 20%;
+    height: 100%;
+    border: 5px solid rgb(35, 126, 37);
+    padding: 20px;
+    
+}
+
+#mainPage {
+ background-color: rgb(234, 240, 234);
+ align-items: center;
+ width: 80%;
+ height: 100%;
+ border: 5px solid rgb(35, 126, 37);
+ padding: 20px;
+ overflow-y:auto; /*scrolling*/
+
+}
+
+
+.klantenInfo {
+    border:3px solid black;
+    padding:5%;
+    margin-bottom: 5%;
+    display: flex;
+   
+    position: relative;
+
+}
+.naam-Klant {
+    position:absolute;
+    top: 0;
+    left:0;
+    
+}
+.info-Klant {
+    position: absolute;
+    left: 0;
+}
