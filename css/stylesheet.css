@@ -58,6 +58,10 @@ html, body {
     
 }
 .info-Klant {
-    position: absolute;
-    left: 0;
+    display: flex;
+    margin-right:100px;
+
+
+    /* position: absolute;
+    left: 0; */
 }
